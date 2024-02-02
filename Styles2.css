@@ -18,6 +18,7 @@
 header{
     text-align: center;
     font-size: xx-large;
+    margin: 0;
 }
 
 p{
@@ -39,9 +40,18 @@ p{
 
 .producto{
     border-radius: 20px;
-    background-color:green;
+    background-color:whitesmoke;
     padding: 50px;
     
+}
+
+button{
+  border-radius: 10px;
+  border-color: silver;
+  background-color: silver;
+  color: white;
+  font-size: medium;
+  font-family:sans-serif;
 }
 
 
