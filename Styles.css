@@ -1,50 +1,73 @@
-* { box-sizing: border-box; }
-html, body {height: 100%;}
-body{
-	color: white;
-	font-family: sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+* {
+    box-sizing: border-box;
 }
 
-.login{
-    background-color: wheat;
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color:white;
+    border-radius: 15px;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
 }
 
-.log{
-    color: darkolivegreen;
+.log {
+    color: black;
     font-size: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
 }
-.form{
-    background-color: bisque;
-    border: 50;
+
+.form {
+    background-color:white;
     justify-content: center;
     text-align: center;
-   
-}
-.form input{
-    margin-top: 10px;
     border-radius: 15px;
+
+}
+
+.form input {
+    margin-top: 10px;
+    border-radius: 8px;
     border-color: transparent;
+    border-color:white;
 }
 
-.create{
-	background-color: red;
-	max-width: 768px;
-	min-width: 320px;
-	border-radius: 15px;
-	background-color: beige;
-	padding: 50px;
+.create {
+    max-width: 768px;
+    min-width: 320px;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    padding: 50px;
 }
 
-.form p{
-     color: black;
+.form p {
+    color: black;
 }
+
+.sexo {
+    color: black;
+}
+
+.form button{
+    background-color: white;
+    border-radius: 15px;
+    border-color: white;
+}
+
