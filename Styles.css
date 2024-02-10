@@ -59,6 +59,31 @@
     }
     /*pagina catalogo fin*/
 
-    /*pagina .....*/
+    /*pagina Login*/
+
+
+.container{
+    padding: 100px;
+    
+}
+
+form{
+    width: 500px;
+    display: block;
+    background-color: white;
+    border-bottom: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 20px white);
+
+}
+
+.btn-primary{
+    margin: 30px;
+    margin-left: 200px;
+}
+
+input{
+    filter: drop-shadow(8px 4px 2px black);
+}
 
     
