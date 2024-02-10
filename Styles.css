@@ -1,73 +1,64 @@
-* {
+*{
+    margin: 0 auto;
+    padding: 0 auto;
     box-sizing: border-box;
-}
+    }
+    
+    .div card-body{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .row{
+        padding: 100px;
+        border-radius: 16px;
+        filter: drop-shadow(8px 8px 8px black);
+    
+    }
+    
+    img{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        filter: drop-shadow(1px 1px 1px black);   
+    }
+    
+    h5{
+        text-align: center;
+        filter: drop-shadow(2px 3px 1px black);
+    }
+    
+    h1{
+        padding: 50px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        filter: drop-shadow(1px 5px 1px black);
+    
+    }
+    
+    .card-body button{
+        border-color: black;
+        margin: 15px;
+        filter: drop-shadow(8px 4px 2px black);
+        margin-left: 50px;
+    
+    }
+    
+    .form-floating  textarea{
+        margin-top: 50px;
+    }
+    
+    .form-floating label{
+        margin-top: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        filter: drop-shadow(1px 2px 1px grey);
+    }
+    /*pagina catalogo fin*/
 
-html,
-body {
-    height: 100%;
-}
+    /*pagina .....*/
 
-body {
-    color: white;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.login {
-    background-color:white;
-    border-radius: 15px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
-}
-
-.log {
-    color: black;
-    font-size: 200%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-}
-
-.form {
-    background-color:powderblue;
-    justify-content: center;
-    text-align: center;
-    border-radius: 15px;
-    border-color: white;
-
-}
-
-.form input {
-    margin-top: 10px;
-    border-radius: 8px;
-    border-color: transparent;
-    border-color:white;
-}
-
-.create {
-    max-width: 768px;
-    min-width: 320px;
-    border-radius: 20px;
-    background-color:powderblue;
-    padding: 50px;
-}
-
-.form p {
-    color: black;
-}
-
-.sexo {
-    color: black;
-}
-
-.form button{
-    background-color: white;
-    border-radius: 15px;
-    border-color: white;
-}
+    
