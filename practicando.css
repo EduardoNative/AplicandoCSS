@@ -1,0 +1,21 @@
+.ejem{
+    width: 400px;   /*determina el ancho del div*/
+    height: 400px;  /*determina el alto del div*/
+    background-color: red;
+    margin: 0 auto;  /*centra el div al centro de la pagina*/
+    display: flex;
+    text-align: center;
+    justify-content: center; /*dentra lo que esta dentro del div*/
+    align-items: center; /*centra al medio el texto o lo quue esta dentro del div*/
+    margin-top: 100px; /*centra el div al medio de la pagina*/
+
+}
+
+.text{
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
