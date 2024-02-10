@@ -64,7 +64,7 @@
 
 .container{
     padding: 100px;
-    
+    filter: drop-shadow(2px 20px 1px rgb(247, 241, 241));
 }
 
 form{
@@ -86,4 +86,10 @@ input{
     filter: drop-shadow(8px 4px 2px black);
 }
 
+svg{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
     
