@@ -92,4 +92,14 @@ svg{
     width: 100px;
     height: 100px;
 }
-    
+    /*fin de pagina lohin*/
+
+.btn-warning{
+    margin: 30px;
+    margin-left: 680px;
+}
+
+.calendar{
+    margin-left: 490px;
+    padding: 10px;
+}
